@@ -16,7 +16,7 @@ defaults:
 
 jobs:
   build-extension-catalog:
-    uses: rancher/dashboard/.github/workflows/build-extension-catalog.yml@master
+    uses: richard-cox/dashboard/.github/workflows/build-extension-catalog.yml@gh-action-remove-yq
     permissions:
       actions: write
       contents: read
